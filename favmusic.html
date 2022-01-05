@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+  <head>
+      <!-- Nonvisible elements in this section-->
+      <!-- CSS Goes here in STYLE tags-->
+      <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          header {
+            color: black;
+            background: lightseagreen;
+            text-align: center;
+          }
+          nav {
+            color: black;
+            background: aqua;
+            padding: 2vh;
+          }
+          footer {
+            color:black;
+            background: aqua;
+            padding: 2vh;
+            min-height: 10vh;
+          }
+          .container {
+            color: black;
+            background: lightblue;
+            padding: 2vh;
+            min-height: 70vh;
+            width: 80%;
+            margin: auto;
+          }
+          .flex-container {
+            display:flex;
+            flex-direction: column;
+          }
+          .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            background: lavender;
+            margin: 1vh auto;
+            width: 100%;
+          }
+          .row-item {
+            flex-basis: 100%;
+            text-align: center;
+            min-height: 30vh;
+            background: floralwhite;
+            margin: 1vh;
+            border: 1px black solid;
+          }
+          .row-item h3 {
+            padding: 1.5rem;
+            font-size: 1.5rem;
+            background: lightseagreen;
+          }
+          .row-item p {
+            font-size: 1.15rem;
+            color: black;
+            padding: 1rem;
+          }
+          .row-movie {
+            height: 25vh;
+            background: black;
+          }
+          .flex-container h2 {
+            font-size: 2rem;
+            padding: 1rem;
+          }
+          .row-movie iframe {
+            display: block;
+            width: 100%;
+            height:100%;
+          }
+         
+         
+          </style>
+      <!-- title tag for browser tab next-->
+      <title>Flexbox Favorite Music</title>
+  </head>
+  <body>
+      <header>
+          <h1>Flexbox Rows: Favorite Music</h1>
+          <p>
+              Keven Hypnarowicz<br>
+              December 11, 2021<br>
+              Web 1, 4th Hour
+          </p>
+      </header>
+      <nav>
+          Placeholder
+      </nav>
+      <div class="container">
+          <!-- Main page content here-->
+          <div class= "flex-container">
+
+              <h2>Kodak Black -- Hip-Hop</h2>
+              <!-- Start of row 1 -->
+             
+              <div class= "row">
+               
+                  <div class="row-item">
+                      <div class="row-movie">
+                      <iframe width="1190" height="669" src="https://www.youtube.com/embed/Ucc5Sltw15g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Super Gremlin</h3>
+                      <p>
+                         “Super Gremlin” is a song about how a friend betrayed him and now how he is striving.
+                      </p>
+                  </div>
+     
+           
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/GZjt_sA2eso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>ZeZe</h3>
+                      <p>
+                        "ZeZe" is a just an overall good and upbeat song to listen to when you just want to vibe!
+                  </div>
+                 
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe width="1190" height="669" src="https://www.youtube.com/embed/U68MJz9DrI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Wake up in the sky</h3>
+                      <p>
+                         "Wake up in the sky" is a song to listen too when you would like to just relax and listen to some good vocals and tunes while you chill.
+                      </p>
+                  </div>
+                 
+
+              </div><!-- End of row-->
+              <h2>Olivia Rodrigo -- Pop</h2>
+              <!-- Start of row 2 -->
+             
+              <div class= "row">
+               
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/GZjt_sA2eso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Traitor</h3>
+                      <p>
+                        "Traitor" is a song expressing feelings of betrayal as one watches their ex move on with another lover.
+                      </p>
+                  </div>
+                 
+
+           
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/gNi_6U5Pm_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Good 4 You</h3>
+                      <p>
+                        "good 4 u" is sung from the perspective of someone watching their ex get with another person.
+                      </p>
+                  </div>
+                 
+
+             
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/OOgvDiXl6hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>All I Want</h3>
+                      <p>
+                        "All I Want" is an emotionally driven song expressing the longing of wanting a relationship where love lasts and stays.
+                      </p>
+                   </div>
+                 
+
+              </div><!-- End of row-->
+             
+              <h2>Rod Wave -- R&B</h2>
+              <!-- Start of row 2 -->
+             
+              <div class= "row">
+               
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe width="1190" height="506" src="https://www.youtube.com/embed/y7394ESN91Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>By your side</h3>
+                      <p>
+                        "By your side" is about letting your partner that no matter what happens you will always have their back for it all.
+                  </div>
+                 
+
+           
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/nQJEp-k-ogs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Tombstone</h3>
+                      <p>
+                        "Tombstone" is about someones suffering finaly coming to an end. A very heartfealt song.
+
+                      </p>
+                  </div>
+                 
+
+             
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe width="1190" height="669" src="https://www.youtube.com/embed/CiCT7NCP6BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Letter from Houston</h3>
+                      <p>
+                        "Letter from Houston" is a song about a long distance relationship and even though they may not see eachother that often he is saying he still loves her.
+                   </div>
+                 
+
+              </div><!-- End of row-->
+           
+          </div><!-- End flex container-->
+         
+         
+         
+     
+     
+      </div><!-- End container -->
+      <footer>
+          Placeholder
+      </footer>
+   
+   
+      <!-- Don't delete these but do paste them -->
+  </body>
+</html>

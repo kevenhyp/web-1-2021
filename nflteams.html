@@ -1,0 +1,434 @@
+<!doctype html>
+<html>
+ <head>
+ <!-- Nonvisible elements in this section-->
+ <!-- CSS Goes here in STYLE tags-->
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ header {
+ color: black;
+ background: lavender;
+ text-align: center;
+ }
+ nav {
+ color: black;
+ background: aqua;
+ padding: 2vh;
+ }
+ footer {
+ color:black;
+ background: lavender;
+ padding: 2vh;
+ min-height: 10vh;
+ }
+ .container {
+ color: black;
+ background: violet;
+ padding: 2vh;
+ min-height: 70vh;
+ width: 80%;
+ margin: auto;
+ }
+ .flex-container {
+ display:flex;
+ flex-direction: column;
+ }
+ .row {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ background: violet;
+ margin: 1vh auto;
+ width: 100%;
+ }
+ .row-item {
+ flex-basis: 30%;
+ text-align: center;
+ min-height: 30vh;
+ background: lavender;
+ margin: 1vh;
+ border: 1px black solid;
+ }
+ .row-item h3 {
+ padding: 1.5rem;
+ font-size: 1.5rem;
+ background: aqua;
+ }
+ .row-item p {
+ font-size: 1.15rem;
+ color: black;
+ padding: 1rem;
+ }
+ .row-movie {
+ height: 25vh;
+ background: black;
+ overflow: hidden;
+ }
+ .row-movie img {
+ width: 100%;
+ display: block;
+ }
+ .flex-container h2 {
+ font-size: 2rem;
+ padding: 1rem;
+ }
+ .row-movie iframe {
+ display: block;
+ width: 100%;
+ height:100%;
+ }
+ 
+ 
+ </style>
+ <!-- title tag for browser tab next-->
+ <title>Flexbox Favorite Music</title>
+ </head>
+ <body>
+ <header>
+ <h1>Flexbox Rows: Favorite Music</h1>
+ <p>
+ Keven Hypnarowicz<br>
+ December 16, 2021<br>
+ Web 1, 4th Hour
+ </p>
+ </header>
+ <nav>
+ Placeholder
+ </nav>
+ <div class="container">
+ <!-- Main page content here-->
+ <div class= "flex-container">
+
+
+ <h2>Detroit Lions</h2>
+ <!-- Start of row 2 -->
+ 
+ <div class= "row">
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://cdn.vox-cdn.com/thumbor/vlpiiP_g4PCLFzDEuekz35SHqr8=/0x0:2400x1600/1200x800/filters:focal(1403x590:1787x974)/cdn.vox-cdn.com/uploads/chorus_image/image/69471459/usa_today_16158123.0.jpg" alt="">
+ </div>
+ <h3>Jared Goff</h3>
+ <p>
+ Goff plays as a quarterback and attended the University of California, Berkeley for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://withthefirstpick.com/wp-content/uploads/getty-images/2016/04/1181284631.jpeg" alt="">
+ </div>
+ <h3>D'Andre Swift</h3>
+ <p>
+ Swift plays as a running back and attended the University of Georgia for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgwNzA5OTExNzI5MDIyMzEy/usatsi_15332234_168388385_lowres.jpg" alt="">
+ </div>
+ <h3>Amon-Ra St. Brown</h3>
+ <p>
+ Brown plays as a wide receiver and attended University of Southern California for his college education.
+ </p>
+ </div>
+ 
+
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/9/7e/97e05416-efec-5a4e-aa4e-632ab12cb27f/5cde2b47e9f12.image.jpg" alt="">
+ </div>
+ <h3>Alex Anzalone</h3>
+ <p>
+ Anzalone plays as a linebacker and attended University of Florida for his college education.
+ </p>
+ </div>
+ 
+
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://cardswire.usatoday.com/wp-content/uploads/sites/60/2021/01/USATSI_15310503.jpg?w=1000&h=600&crop=1" alt="">
+ </div>
+ <h3>Jamaal Williams</h3>
+ <p>
+ Williams plays as a running back and attended Brigham Young University for his college education.
+ </p>
+ </div>
+ 
+
+ </div><!-- End of row-->
+ 
+  <h2>Miami Dolphins</h2>
+ <!-- Start of row 1 -->
+ 
+ <div class= "row">
+ 
+ <div class="row-item">
+ 
+ 
+ <div class="row-movie">
+ <img src="https://ca-times.brightspotcdn.com/dims4/default/442d881/2147483647/strip/true/crop/3919x2665+0+0/resize/1486x1011!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2a%2F1d%2F0d5cf5004c2098ba9c78e52e467f%2Fhttps-delivery.gettyimages.com%2Fdownloads%2F1186618800.jpg" alt="">
+ </div>
+ <h3>Tua Tagovailoa</h3>
+ <p>
+ Tagovailoa plays as a quarterback and attended the University of Alabama for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_2286,w_3200/https%3A%2F%2Ffansided.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2020%2F07%2F1187405383.jpeg" alt="">
+ </div>
+ <h3>Jaylen Waddle</h3>
+ <p>
+ Waddle plays as a wide receiver and attended the University of Alabama for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://www.nbcsports.com/sites/rsnunited/files/archive/assets_media_gallery/boston/2016/09/22/jacoby_brissett.jpg" alt="">
+ </div>
+ <h3>Jacoby Brissett</h3>
+ <p>
+ Brissett plays as a quarterback and attended the University of Florida and North Carolina State University for his college education.
+ </p>
+ </div>
+ 
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://i.pinimg.com/originals/5b/f0/eb/5bf0ebd54ab909928253d5921cbb7aea.jpg" alt="">
+ </div>
+ <h3>Xavien Howard</h3>
+ <p>
+ Howard plays as a cornerback and attended Baylor University for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://thedynastyguru.com/wp-content/uploads/2019/06/TravisKelceJacksonvilleJaguarsvsKansasZCdcTHH98yHl-360x240.jpg" alt="">
+ </div>
+ <h3>Mike Gesicki</h3>
+ <p>
+ Gesicki plays as a tight end and attended Penn State University for his college education.
+ </p>
+ </div>
+ 
+
+ </div><!-- End of row-->
+ <h2>Las Vegas Raiders</h2>
+ <!-- Start of row 3 -->
+ <div class= "row">
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://i1.wp.com/raiderramble.com/wp-content/uploads/2021/01/Derek-Carr-IG-e1610601724215.jpeg?fit=659%2C413&ssl=1" alt="">
+ </div>
+ <h3>Derek Carr</h3>
+ <p>
+ Carr plays as a quarterback and attended California State University for his college education.
+ </p>
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://cdn.vox-cdn.com/thumbor/9IicJEZxR7C2ve64anKS13X5AX0=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/16186997/usa_today_11968106.jpg" alt="">
+ </div>
+ <h3>Josh Jacobs</h3>
+ <p>
+ Jacobs plays as a running back and attended the University of Alabama for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://cdn.vox-cdn.com/thumbor/MEB6TKf6G9tf2rl1KYLcq0uy2cQ=/0x0:3600x2672/1200x800/filters:focal(929x568:1505x1144)/cdn.vox-cdn.com/uploads/chorus_image/image/65906244/usa_today_13738417.0.jpg" alt="">
+ </div>
+ <h3>Darren Waller</h3>
+ <p>
+ Waller plays as a tight end and attended Georgia Institute of Technology for his college education.
+ </p>
+ </div>
+ 
+
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://www.gannett-cdn.com/presto/2018/10/28/USAT/ffb85e96-a6c4-44cb-b916-a506bab384ff-USATSI_11369727.jpg" alt="">
+ </div>
+ <h3>DeSean Jackson</h3>
+ <p>
+ Jackson plays as a wide receiver and attended University of California, Berkeley for his college education.
+ </p>
+ </div>
+ 
+
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://www.gannett-cdn.com/presto/2020/08/20/NREG/72615aec-678d-4df9-be8b-032594dd9135-AP20231554601717.jpg" alt="">
+ </div>
+ <h3>Marcus Mariota</h3>
+ <p>
+ Mariota plays as a quarterback and attended the University of Oregon for his college education.
+ </p>
+ </div>
+ 
+
+ </div><!-- End of row-->
+ 
+ </div><!-- End flex container-->
+
+ <h2>San Francisco 49ers</h2>
+ <!-- Start of row 5 -->
+ 
+ <div class= "row">
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://ninerswire.usatoday.com/wp-content/uploads/sites/77/2020/01/usatsi_13932784.jpg?w=1000&h=600&crop=1" alt="">
+ </div>
+ <h3>Nick Bosa</h3>
+ <p>
+ Harris plays as a defensive end and attended the Ohio State University for his college education.
+ </p>
+ </div>
+ 
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://thespun.com/wp-content/uploads/2020/12/brandon-aiyuk-1024x683.jpg" alt="">
+ </div>
+ <h3>Brandon Aiyuk</h3>
+ <p>
+ Aiyuk plays as a wide receiver and attended Arizona State University for his college education.
+ </p>
+ </div>
+ 
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://www.mercurynews.com/wp-content/uploads/2021/08/BNG-L-49ERS-0830-35.jpg" alt="">
+ </div>
+ <h3>Jimmy Garoppolo</h3>
+ <p>
+ Garoppolo plays as a quarterback and attended Eastern Illinois University for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://ninernoise.com/wp-content/uploads/getty-images/2021/10/1343033749.jpeg" alt="">
+ </div>
+ <h3>George Kittle</h3>
+ <p>
+ Kittle plays as a tight end and attended the University of Iowa for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://ninerswire.usatoday.com/wp-content/uploads/sites/77/2019/12/usatsi_13800388.jpg?w=1000&h=600&crop=1" alt="">
+ </div>
+ <h3>Fred Warner</h3>
+ <p>
+ Warner plays as a linebacker and attended Brigham Young University for his college education.
+ </p>
+ </div>
+ 
+
+ </div><!-- End of row-->
+  <h2>New England Patriots</h2>
+ <!-- Start of row 4 -->
+ 
+ <div class= "row">
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://static01.nyt.com/images/2021/04/29/sports/29nfl-draftlive-pats-pick/29nfl-draftlive-pats-pick-mediumSquareAt3X.jpg" alt="">
+ </div>
+ <h3>Mac Jones</h3>
+ <p>
+ Jones plays as a quarterback and attended the University of Alabama for his college education.
+ </p>
+ </div>
+ 
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://cdn.vox-cdn.com/thumbor/ni1bWVPzcUJzptlj3QSJh2_1-_M=/0x0:2338x3373/1200x800/filters:focal(892x738:1266x1112)/cdn.vox-cdn.com/uploads/chorus_image/image/63682062/usa_today_11978429.0.jpg" alt="">
+ </div>
+ <h3>Damien Harris</h3>
+ <p>
+ Harris plays as a running back and attended the University of Alabama for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://www.baltimoresun.com/resizer/iK6TCXZvQqH7nJsHBjNRg0cz3DQ=/415x542/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/JJ3U2HLLTNECTHYXKEXOFNQJDM.jpg" alt="">
+ </div>
+ <h3>J.C. Jackson</h3>
+ <p>
+ Jackson plays as a cornerback and attended Riverside City College for his college education.
+ </p>
+ </div>
+ 
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <img src="https://cdn.vox-cdn.com/thumbor/E9GjIveh8epkMz-EYbhriN65DeU=/0x0:2325x3278/1200x800/filters:focal(772x826:1144x1198)/cdn.vox-cdn.com/uploads/chorus_image/image/58401727/usa_today_10536165.0.jpg" alt="">
+ </div>
+ <h3>Isaiah Wynn</h3>
+ <p>
+ Wynn plays as a tackler and attended the University of Georgia for his college education.
+ </p>
+ </div>
+ 
+ <div class="row-item">
+ <div class="row-movie">
+ <!-- iframe from youtube will go here -->
+ <img src="https://www.nwahomepage.com/wp-content/uploads/sites/90/2016/04/84-Hunter-Henry-FB-2015-3216_1461121888306_8174867_ver1.0-1.jpg?w=1280" alt="">
+ </div>
+ <h3>Hunter Henry</h3>
+ <p>
+ Henry plays as a tight end and attended the University of Arkansas for his college education.
+ </p>
+ </div>
+ 
+
+ </div><!-- End of row-->
+ 
+ 
+ 
+ </div><!-- End container -->
+ <footer>
+ Placeholder
+ </footer>
+ 
+ 
+ <!-- Don't delete these but do paste them -->
+ </body>
+</html>
